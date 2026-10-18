@@ -1,0 +1,12 @@
+check,value,status
+Total rows,250000,PASS
+Missing values in encounter_id,0,PASS
+Missing values in encounter_date,0,PASS
+Missing values in district,0,PASS
+Missing values in facility_id,0,PASS
+Missing values in disease,0,PASS
+Missing values in age,0,PASS
+Missing values in sex,0,PASS
+Missing values in symptom,0,PASS
+Missing values in outcome,0,PASS
+Duplicate rows,0,PASS
