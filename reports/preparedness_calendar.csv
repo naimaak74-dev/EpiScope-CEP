@@ -1,0 +1,61 @@
+disease,month,mean_monthly_daily_cases,priority_rank,preparedness_action,month_name
+Dengue,1,41.851612903225806,1,"High readiness: verify supplies, staffing and reporting",January
+Dengue,4,41.52,2,Prepare buffer stock and monitor weekly,April
+Dengue,12,41.34193548387097,3,Prepare buffer stock and monitor weekly,December
+Dengue,10,41.329032258064515,4,Routine monitoring,October
+Dengue,2,41.198581560283685,5,Routine monitoring,February
+Dengue,11,40.96,6,Routine monitoring,November
+Dengue,7,40.92258064516129,7,Routine monitoring,July
+Dengue,3,40.774193548387096,8,Routine monitoring,March
+Dengue,9,40.77333333333333,9,Routine monitoring,September
+Dengue,6,40.57333333333333,10,Routine monitoring,June
+Dengue,5,40.458064516129035,11,Routine monitoring,May
+Dengue,8,40.21290322580645,12,Routine monitoring,August
+Diarrhea,2,35.01418439716312,1,"High readiness: verify supplies, staffing and reporting",February
+Diarrhea,1,34.87096774193548,2,Prepare buffer stock and monitor weekly,January
+Diarrhea,7,34.84516129032258,3,Prepare buffer stock and monitor weekly,July
+Diarrhea,11,34.74,4,Routine monitoring,November
+Diarrhea,3,34.66451612903226,5,Routine monitoring,March
+Diarrhea,4,34.66,6,Routine monitoring,April
+Diarrhea,8,34.30967741935484,7,Routine monitoring,August
+Diarrhea,6,34.093333333333334,8,Routine monitoring,June
+Diarrhea,5,34.090322580645164,9,Routine monitoring,May
+Diarrhea,10,33.909677419354836,10,Routine monitoring,October
+Diarrhea,9,33.766666666666666,11,Routine monitoring,September
+Diarrhea,12,33.76129032258064,12,Routine monitoring,December
+Malaria,3,14.0,1,"High readiness: verify supplies, staffing and reporting",March
+Malaria,2,13.936170212765957,2,Prepare buffer stock and monitor weekly,February
+Malaria,8,13.832258064516129,3,Prepare buffer stock and monitor weekly,August
+Malaria,5,13.819354838709678,4,Routine monitoring,May
+Malaria,11,13.746666666666666,5,Routine monitoring,November
+Malaria,6,13.713333333333333,6,Routine monitoring,June
+Malaria,7,13.703225806451613,7,Routine monitoring,July
+Malaria,10,13.67741935483871,8,Routine monitoring,October
+Malaria,12,13.664516129032258,9,Routine monitoring,December
+Malaria,9,13.573333333333334,10,Routine monitoring,September
+Malaria,1,13.35483870967742,11,Routine monitoring,January
+Malaria,4,13.32,12,Routine monitoring,April
+Respiratory_Infection,3,28.212903225806453,1,"High readiness: verify supplies, staffing and reporting",March
+Respiratory_Infection,10,27.696774193548386,2,Prepare buffer stock and monitor weekly,October
+Respiratory_Infection,11,27.633333333333333,3,Prepare buffer stock and monitor weekly,November
+Respiratory_Infection,8,27.470967741935485,4,Routine monitoring,August
+Respiratory_Infection,7,27.406451612903226,5,Routine monitoring,July
+Respiratory_Infection,2,27.347517730496453,6,Routine monitoring,February
+Respiratory_Infection,4,27.333333333333332,7,Routine monitoring,April
+Respiratory_Infection,1,27.303225806451614,8,Routine monitoring,January
+Respiratory_Infection,9,27.086666666666666,9,Routine monitoring,September
+Respiratory_Infection,6,26.906666666666666,10,Routine monitoring,June
+Respiratory_Infection,5,26.81290322580645,11,Routine monitoring,May
+Respiratory_Infection,12,26.767741935483873,12,Routine monitoring,December
+Typhoid,8,21.10967741935484,1,"High readiness: verify supplies, staffing and reporting",August
+Typhoid,10,21.06451612903226,2,Prepare buffer stock and monitor weekly,October
+Typhoid,1,20.780645161290323,3,Prepare buffer stock and monitor weekly,January
+Typhoid,3,20.75483870967742,4,Routine monitoring,March
+Typhoid,6,20.653333333333332,5,Routine monitoring,June
+Typhoid,12,20.606451612903225,6,Routine monitoring,December
+Typhoid,5,20.52258064516129,7,Routine monitoring,May
+Typhoid,11,20.513333333333332,8,Routine monitoring,November
+Typhoid,7,20.361290322580643,9,Routine monitoring,July
+Typhoid,2,19.900709219858157,10,Routine monitoring,February
+Typhoid,4,19.873333333333335,11,Routine monitoring,April
+Typhoid,9,19.8,12,Routine monitoring,September

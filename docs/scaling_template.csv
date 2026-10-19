@@ -1,0 +1,4 @@
+scale_factor,rows,hardware_cpu,hardware_ram_gb,python_version,spark_version,full_runtime_seconds,incremental_runtime_seconds,output_size_mb,optimization_1_before_seconds,optimization_1_after_seconds,optimization_2_before_seconds,optimization_2_after_seconds,notes
+0.25,,,,,,,,,,,,,
+0.5,,,,,,,,,,,,,
+1.0,,,,,,,,,,,,,

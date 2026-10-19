@@ -1,0 +1,2 @@
+district,cases,need_score,allocated_units,population_baseline,allocation_method
+All districts,135,135,1000,1000.0,case-weighted with equity floor

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EpiScope | District Surveillance</title>
+<style>
+:root{font-family:system-ui,Segoe UI,sans-serif;color:#17202a;background:#f5f7fa}
+body{margin:0}header{padding:18px 24px;background:#102a43;color:white}
+main{padding:18px;max-width:1400px;margin:auto}
+.toolbar{display:flex;gap:12px;flex-wrap:wrap;background:white;padding:12px;border-radius:10px;margin-bottom:14px}
+select,button{padding:8px;border:1px solid #b8c4ce;border-radius:6px;background:white}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.panel{background:white;border:1px solid #d9e2ec;border-radius:10px;padding:14px;min-width:0}
+.panel h2{font-size:16px;margin:0 0 10px}.wide{grid-column:1/-1}
+svg{width:100%;height:260px;display:block}.note{color:#52606d;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:13px}td,th{text-align:left;border-bottom:1px solid #e5eaf0;padding:7px}
+.bar{cursor:pointer}.bar:hover{opacity:.75}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.wide{grid-column:auto}}
+</style>
+</head>
+<body>
+<header><h1 style="margin:0">EpiScope</h1><div>District-level surveillance · synthetic/teaching prototype</div></header>
+<main>
+<div class="toolbar">
+<label>Disease <select id="disease"><option value="all">All diseases</option></select></label>
+<label>District <select id="district"><option value="all">All districts</option></select></label>
+<button id="reset">Reset filters</button>
+<span id="freshness" class="note">Data freshness: checking…</span>
+</div>
+<div class="grid">
+<section class="panel"><h2>1. District overview</h2><svg id="districtView" role="img" aria-label="District case totals"></svg><p class="note">Select a bar to filter the other views. This is not a geographic boundary map.</p></section>
+<section class="panel"><h2>2. Trend / forecast view</h2><svg id="trendView" role="img" aria-label="Daily case trend"></svg><p class="note">Observed counts only. Forecast output can be added from analytics/forecasting.py output.</p></section>
+<section class="panel"><h2>3. Seasonal heatmap</h2><svg id="heatView" role="img" aria-label="Month by disease heatmap"></svg></section>
+<section class="panel"><h2>4. Resource allocation</h2><svg id="resourceView" role="img" aria-label="Suggested supply allocation"></svg><p class="note">Illustrative case-weighted allocation; review against population and equity requirements.</p></section>
+<section class="panel wide"><h2>5. Early-warning table</h2><div id="alerts"></div><p class="note">Counts from 1 to 4 are suppressed. The baseline is a prototype and alerts require human review.</p></section>
+</div>
+<p class="note">Source: local Gold CSV. Label synthetic data clearly. Do not use this teaching prototype for real clinical decisions.</p>
+</main>
+<script src="https://d3js.org/d3.v7.min.js"></script><script src="app.js"></script>
+</body></html>
