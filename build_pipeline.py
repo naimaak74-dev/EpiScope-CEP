@@ -2,7 +2,7 @@
 from pathlib import Path
 import pandas as pd
 
-ROOT = Path(r"E:\episcope")
+ROOT = Path(__file__).resolve().parent
 BRONZE = ROOT / "data" / "bronze"
 ENCOUNTERS = BRONZE / "encounters"
 SILVER = ROOT / "data" / "silver"

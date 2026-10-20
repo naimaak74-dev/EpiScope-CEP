@@ -2,7 +2,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ROOT = Path(r"E:\episcope")
+ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "data" / "public"
 OUT = ROOT / "data" / "bronze" / "encounters"
 
