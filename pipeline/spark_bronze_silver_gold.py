@@ -8,7 +8,12 @@ def main():
     p.add_argument("--input",required=True); p.add_argument("--output",default="data/lakehouse")
     p.add_argument("--batch-id",default="manual-batch")
     a=p.parse_args()
-    spark=(SparkSession.builder.appName("EpiScope-Bronze-Silver-Gold").getOrCreate())
+    spark = (
+    SparkSession.builder
+    .appName("EpiScope-Bronze-Silver-Gold")
+    .config("spark.hadoop.fs.defaultFS", "file:///")
+    .getOrCreate()
+)
     raw=spark.read.option("header",True).option("inferSchema",True).csv(a.input)
     bronze=raw.withColumn("_batch_id",F.lit(a.batch_id)).withColumn("_ingested_at",F.current_timestamp())
     bronze_path=f"{a.output}/bronze"

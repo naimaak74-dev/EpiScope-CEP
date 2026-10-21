@@ -4,3 +4,16 @@ __pycache__/
 *.py[cod]
 .env
 .streamlit/secrets.toml
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+
+# Generated synthetic datasets and backups
+data/bronze/synthetic_encounters*.csv
+data/bronze/outbreak_ground_truth*.csv
+
+# Generated pipeline outputs
+data/lakehouse_test/
